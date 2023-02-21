@@ -1,0 +1,53 @@
+body {
+    background-color: #FFF7F0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* NavBar section */
+
+#logo {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+#button1 {
+    background-color: #030303;
+    border: none;
+    color: #FFF7F0;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 200px;
+    margin-top: 10px;
+
+}
+
+.button1:hover {
+    background-color: #755CDE;
+}
+
+/* media queries for NavBar section */
+
+@media (max-width: 820px) {
+    #button1 {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    #logo {
+        margin-left: 0px;
+    }
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
