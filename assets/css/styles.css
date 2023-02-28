@@ -80,112 +80,147 @@ body {
 
 }
 
-#graphic {
+/* work box section */
+
+.box1 {
     background-color: #755CDE;
+    height: 400px;
     background-image: url("../images/pattern-graphic-design.svg");
-    background-position: 290px 30px;
-    background-repeat: no-repeat;
-    color: #FFF7F0;
-    border-radius: 25px;
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 450px;
-    height: 450px;
-    text-align: left;
-    padding: 25px;
-    line-height: 770px;
-    font-size: 30px;
-
-}
-
-#uiux {
-    background-color: #F6A560;
-    background-image: url("../images/pattern-ui-ux.svg");
-    background-position: 120px 30px;
-    background-repeat: no-repeat;
-    color: #FFF7F0;
-    border-radius: 25px;
-    margin-top: 8px;
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 215px;
-    height: 225px;
-    text-align: left;
-    padding: 25px;
-    line-height: 310px;
-    font-size: 30px;
-
-}
-
-#apps {
-    background-color: #F39E9E;
-    background-image: url("../images/pattern-apps.svg");
-    background-position: 120px 30px;
-    background-repeat: no-repeat;
-    color: #FFF7F0;
-    border-radius: 25px;
-    margin-top: 8px;
-    vertical-align: middle;
-    margin-left: 10px;
-    width: 215px;
-    height: 225px;
-    text-align: left;
-    padding: 25px;
-    line-height: 310px;
-    font-size: 30px;
-}
-
-#photography {
-    background-color: #61c4b7;
-    background-image: url("../images/pattern-photography.svg");
     background-position: 260px 30px;
     background-repeat: no-repeat;
     color: #FFF7F0;
     border-radius: 25px;
-    margin-top: 8px;
     vertical-align: middle;
-    width: 450px;
-    height: 225px;
     text-align: left;
     padding: 25px;
-    line-height: 310px;
+    line-height: 680px;
     font-size: 30px;
 }
 
-#illustrations {
+.box2 {
+    background-color: #F6A560;
+    height: 200px;
+    background-image: url("../images/pattern-ui-ux.svg");
+    background-position: 100px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 25px;
+    line-height: 280px;
+    font-size: 30px;
+
+}
+
+.box3 {
+    background-color: #F39E9E;
+    height: 200px;
+    background-image: url("../images/pattern-apps.svg");
+    background-position: 100px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 25px;
+    line-height: 280px;
+    font-size: 30px;
+}
+
+.box4 {
+    background-color: #61c4b7;
+    height: 200px;
+    background-image: url("../images/pattern-photography.svg");
+    background-position: 230px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 25px;
+    line-height: 280px;
+    font-size: 30px;
+
+}
+
+.box5 {
     background-color: #EB7565;
+    height: 180px;
+    margin-top: 20px;
     background-image: url("../images/pattern-illustrations.svg");
-    background-position: 290px 30px;
+    background-position: 260px 30px;
     background-repeat: no-repeat;
     color: #FFF7F0;
     border-radius: 25px;
-    margin-top: 20px;
     vertical-align: middle;
-    width: 450px;
-    height: 205px;
     text-align: left;
     padding: 25px;
-    line-height: 280px;
+    line-height: 240px;
     font-size: 30px;
+
 }
 
-#motion {
+.box6 {
     background-color: #552049;
+    height: 180px;
+    margin-top: 20px;
     background-image: url("../images/pattern-motion-graphics.svg");
-    background-position: 290px 30px;
+    background-position: 260px 30px;
     background-repeat: no-repeat;
     color: #FFF7F0;
     border-radius: 25px;
-    margin-top: 20px;
     vertical-align: middle;
-    width: 450px;
-    height: 205px;
     text-align: left;
     padding: 25px;
-    line-height: 280px;
+    line-height: 240px;
     font-size: 30px;
+
 }
 
-#this {
-    justify-content: flex-end;
+/* media queries for work box section */
+
+@media screen and (max-width:480px) {
+    .box1 {
+        background-position: 210px 30px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .box2 {
+        background-position: 80px 30px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .box3 {
+        background-position: 80px 30px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .box4 {
+        background-position: 180px 30px;
+
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .box5 {
+        background-position: 210px 30px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .box6 {
+        background-position: 200px 30px;
+    }
+
 }
